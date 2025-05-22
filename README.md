@@ -1,2 +1,14 @@
-Simple Golang project, that calculates prices with different tax rates.
-Project made to practice Go concepts - channels, goroutines, interfaces, packages etc.
+# Concurrent Price Tax Calc
+
+A simple Go program for **concurrently calculating prices with various tax rates**, with a limit on the number of simultaneous downloads (*workers*). This project is made to practice Go concepts - interfaces, packages, concurrency using goroutines, channels etc.
+
+---
+
+## Features
+
+- Reads prices from a file
+- Concurrent calculating prices with a tax
+- Saves calculated prices into a JSON file
+
+---
+
